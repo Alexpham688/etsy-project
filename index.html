@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Beauty Supply</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="bootstrap-3.3.7-dist">
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+      <div id="container">
+        <div class="header">
+          <h1>BEAUTY SUPPLY</h1>
+       </div>
+
+       <div class="productsList" ng-repeat="num in numArray">
+           <p>{{num}}</p>
+       </div>
+
+       <div class="productsList" ng-repeat=" product in finalArray track by $index">
+           <p>{{product.title}}</p>
+       </div>
+
+
+      </div>
+
+
+
+    <script src="lib/angular.min.js"></script><script src="lib/angular-route.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+    <script src="service.js"></script>
+    <!-- <script src=directive.js></script> -->
+
+
+  </body>
+</html>
