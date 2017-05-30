@@ -1,0 +1,17 @@
+.listingOne{
+ border:2px solid orange;
+ width:200px;
+ height:200px;
+ display:inline-block;
+ float:left;
+ margin: 10px 10px  auto;
+ border-radius: 20px;
+ text-align: center;
+}
+h1 {
+  color:blue;
+  text-align: center;
+}
+.productList {
+  margin: 0 auto;
+}

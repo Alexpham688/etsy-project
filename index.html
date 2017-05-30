@@ -6,31 +6,43 @@
     <link rel="stylesheet" href="styles.css">
     <link href="bootstrap-3.3.7-dist">
   </head>
-  <body ng-app="myApp" ng-controller="myCtrl">
+  <body ng-app="myApp">
       <div id="container">
         <div class="header">
-          <h1>BEAUTY SUPPLY</h1>
+          <h1>BEAUTY PRODUCTS!!</h1>
+       </div>
+       <div class="form1">
+         <nav class="search">
+           <input type="text" placeholder="Search" ng-model="product">
+           <a href="#!/cart"><button type="button" ng-click="">SUBMIT</button></a>
+           <a href="#!/display"><button type="button" ng-click="getEtsy(input)">HOME</button></a>
+         </nav>
+       </div>
+       <div class="">
+         <ng-view></ng-view>
        </div>
 
-       <div class="productsList" ng-repeat="num in numArray">
-           <p>{{num}}</p>
-       </div>
+      <div class="productContainer">
 
-       <div class="productsList" ng-repeat=" product in finalArray track by $index">
-           <p>{{product.title}}</p>
-       </div>
+
+
 
 
       </div>
 
 
 
-    <script src="lib/angular.min.js"></script><script src="lib/angular-route.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    </script>
     <script src="app.js"></script>
-    <script src="controller.js"></script>
+    <script src="displayCtrl.js"></script>
     <script src="service.js"></script>
-    <!-- <script src=directive.js></script> -->
+    <script src="directive.js"></script>
+
+
+    </script>
 
 
   </body>

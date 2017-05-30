@@ -3,6 +3,6 @@ app.directive('etsyPost', function(){
   return {
     restrict: "E",
     replace: false,
-    templateUrl: "etsyPost.html"
+    templateUrl: "display.html"
   };
 });
