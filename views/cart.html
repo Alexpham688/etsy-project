@@ -5,17 +5,54 @@
     <title>Shopping Cart</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body ng-app="myApp" ng-controller="cartCtrl">
     <h1>SHOPPING CART</h1>
-    <div class="container">
-      <div class="header">
+      <div class="mainContainer">
+        <div class="container2" >
+          <div class="header2">
+            <div class="prod">
+              <p>PRODUCT</p>
+            </div>
+            <div class="qty">
+              <p>PRICE</p>
+            </div>
+            <!-- <div class="price">
+              <p>QTY</p>
+            </div> -->
+          </div>
+          <div class="resultBox">
+             <div class="displayBox" ng-repeat="product in cartArray track by $index">
 
-      </div>
-      <div class="resultBox">
-
-      </div>
-
-    </div>
-
+              <div class="prod1">
+                <p>{{product.title |limitTo:50}}</p>
+              </div>
+              <div class="price1">
+                <p>{{product.price}}</p>
+              </div>
+              <div class="qty1">
+                <p>{{product.qty + 1}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="totalBox">
+            <div class="total1">
+              <p>TOTAL</p>
+            </div>
+            <div class="totalOut">
+              <p>{{total|currency}}</p>
+            </div>
+            <div class="discBox">
+              <div class="disc1">
+                <p>DISCOUNT
+                <input type="text" placeholder="code">
+                <button type="button" name="button" ng-click="">APPLY</button></p>
+              </div>
+              <div class="checkout">
+                <button type="button" name="button" ng-click="">CHECKOUT</button>
+              </div>
+           </div>
+         </div>
+       </div>
+     </div>
   </body>
 </html>

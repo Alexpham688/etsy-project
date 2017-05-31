@@ -1,17 +1,164 @@
 .listingOne{
  border:2px solid orange;
  width:200px;
- height:200px;
+ height:210px;
  display:inline-block;
  float:left;
- margin: 10px 10px  auto;
+ margin: 5px 5px;
  border-radius: 20px;
- text-align: center;
+ text-align:center;
+ background-color:#F3FFAB;
 }
 h1 {
-  color:blue;
+  color:#7219F7;
   text-align: center;
+  font-family: helvetica times serif;
+  font-size: 2.5em;
+}
+p {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: helvetica times serif;
 }
 .productList {
   margin: 0 auto;
+}
+.container2 {
+  border:2px solid lightblue;
+  width:800px;
+  height:500px;
+}
+.header2 {
+  border: 2px solid orange;
+  width:780px;
+  height:35px;
+  margin:0 auto;
+}
+.prod {
+  border:1px solid blue;
+  height:35px;
+  width:500px;
+  float:left;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.qty {
+  border: 1px solid purple;
+  height:35px;
+  width:100px;
+  float:right;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.price {
+  border: 1px solid grey;
+  height:35px;
+  width:100px;
+  float:right;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.resultBox {
+  border: 2px solid green;
+  height:400px;
+  width:780px;
+  margin:0 auto;
+  font-family: helvetica times serif;
+}
+.displayBox {
+  border:1px solid #71E2F7;
+  height:40px;
+  width:780px;
+
+}
+body{
+ background-image:url("images/nice.jpg");
+ background-size:cover;
+ background-repeat:no-repeat;
+ }
+.prod1 {
+  /*border:1px solid blue;*/
+  height:20px;
+  width:500px;
+  float:left;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.qty1 {
+  /*border: 1px solid purple;*/
+  height:20px;
+  width:100px;
+  float:right;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.price1 {
+  /*border: 1px solid grey;*/
+  height:20px;
+  width:100px;
+  float:right;
+  text-align: center;
+  font-family: helvetica times serif;
+}
+.totalBox {
+  border:2px solid red;
+  height:60px;
+  width:780px;
+  margin:0 auto;
+}
+.total1 {
+  border:1px solid yellow;
+  height:60px;
+  width: 670px;
+  font-size:1.3em;
+  text-align: right;
+  float:left;
+  font-family: helvetica times serif;
+}
+.totalOut {
+  border: 1px solid grey;
+  height:60px;
+  width:100px;
+  text-align:center;
+  float:right;
+}
+.discBox {
+  border:1px solid yellow;
+  height:90px;
+  width:780px;
+}
+.checkout{
+  width:100px;
+  height: 60px;
+  float:right;
+  margin: 0 auto;
+}
+.disc1{
+  border:1px solid lightgreen;
+  width:400px;
+  height:60px;
+  text-align: center;
+}
+
+.mainContainer {
+  border:2px solid teal;
+  margin: 0 auto;
+  width:800px;
+  height:550px;
+}
+.dsiplayContainer {
+  border:2px solid blue;
+  margin: 0 auto;
+  width:900px;
+  height:950px;
+}
+input{
+  width:150px;
+  height:25px;
+}
+button {
+  font-size:16px;
+  border-radius:10px;
+  background-color: orange;
+  color:white;
 }

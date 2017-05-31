@@ -7,16 +7,17 @@
     <link href="bootstrap-3.3.7-dist">
   </head>
   <body ng-app="myApp">
+
       <div id="container">
         <div class="header">
-          <h1>BEAUTY PRODUCTS!!</h1>
+
        </div>
        <div class="form1">
          <nav class="search">
            <input type="text" placeholder="Search" ng-model="product">
-           <a href="#!/cart"><button type="button" ng-click="">SUBMIT</button></a>
-           <a href="#!/display"><button type="button" ng-click="getEtsy(input)">HOME</button></a>
-         </nav>
+            <a href="#!/display"><button type="button" ng-click="getEtsy(input)">SHOP</button></a>
+           <a href="#!/cart"><button type="button" ng-click="">CART</button></a>
+        </nav>
        </div>
        <div class="">
          <ng-view></ng-view>
@@ -32,13 +33,13 @@
 
 
 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/angular-route.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
-    </script>
     <script src="app.js"></script>
     <script src="displayCtrl.js"></script>
-    <script src="service.js"></script>
+    <script src="cartCtrl.js"></script>
+    <script src="cartService.js"></script>
     <script src="directive.js"></script>
 
 
