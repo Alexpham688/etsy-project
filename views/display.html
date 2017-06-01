@@ -5,12 +5,12 @@
     <title>Beauty Supply</title>
   </head>
   <body ng-app="myApp">
-    <h1>BEAUTY SUPPLY</h1>
+    <h1>ETSY BEAUTY PRODUCTS</h1>
     <div class="displayContainer">
-      <div class="productList" ng-repeat="product in finalArray track by $index"  "col-sm-8 col-md-6 col-lg-6">
+      <div class="productList" ng-repeat="product in finalArray track by $index"  "col-sm-8 col-md-8 col-lg-8">
         <div class="listingOne">
           <p>{{product.title| limitTo:40}}</p>
-          <button  class="image1"  ng-click="addItem(product)" ng-mouseover="style={color:'blue','background-color':'blue', 'cursor':'pointer'}" ng-mouseleave="style={'background-color':'white'}" ><img  ng-src="{{product.mainImage}}" ng-style="style" ></button>
+          <button  class="image1"  ng-click="addItem(product)" ng-mouseover="style={color:'blue','background-color':'blue', 'cursor':'pointer'}" ><img  ng-src="{{product.mainImage}}" ng-style="style" ></button>
           <p>{{product.price|currency}}</p>
         </div>
       </div>

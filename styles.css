@@ -1,5 +1,5 @@
 .listingOne{
- border:2px solid orange;
+ border:2px solid #FF09F0;
  width:200px;
  height:210px;
  display:inline-block;
@@ -7,53 +7,51 @@
  margin: 5px 5px;
  border-radius: 20px;
  text-align:center;
- background-color:#E8DAEF;
+ background-color:#DEA4F9;
 }
 h1 {
   color:#7219F7;
   text-align: center;
   font-family: helvetica times serif;
   font-size: 2.5em;
-
 }
 p {
   text-transform: uppercase;
   font-size: 1em;
   font-family: helvetica times serif;
-
+  color:white;
 }
 .productList {
   margin: 0 auto;
 }
 .container2 {
   border:2px solid #000;
-  width:800px;
-  height:500px;
+  width:950px;
+  height:550px;
+  border-radius:15px;
+  background-color:#FF09F0;
 }
 .header2 {
-  border: 2px solid orange;
   width:800px;
   height:35px;
   margin:0 auto;
 }
 .prod {
-  border:1px solid blue;
   height:35px;
   width:500px;
   float:left;
   text-align: center;
   font-family: helvetica times serif;
-/*}
+}
 .qty {
-  border: 1px solid purple;
   height:35px;
   width:100px;
   float:right;
   text-align: center;
   font-family: helvetica times serif;
-}*/
+
+}
 .price {
-  border: 1px solid grey;
   height:35px;
   width:100px;
   float:right;
@@ -61,17 +59,19 @@ p {
   font-family: helvetica times serif;
 }
 .resultBox {
-  /*border: 2px solid green;*/
-  height:400px;
-  width:800px;
+  border: 2px solid darkblue;
+  height:450px;
+  width:920px;
   margin:0 auto;
   font-family: helvetica times serif;
+  border-radius:20px;
+  background-color: darkblue;
 }
 .displayBox {
-  border:1px solid #000;
+  border:1px solid #71E2F7;
   height:40px;
-  width:800px;
-
+  width:910px;
+  border-radius: 5px;
 }
 body{
  background-image:url("images/nice.jpg");
@@ -79,23 +79,14 @@ body{
  background-repeat:no-repeat;
  }
 .prod1 {
-  /*border:1px solid blue;*/
   height:20px;
   width:500px;
   float:left;
   text-align: center;
   font-family: helvetica times serif;
 }
-.qty1 {
-  /*border: 1px solid purple;*/
-  height:20px;
-  width:100px;
-  float:right;
-  text-align: center;
-  font-family: helvetica times serif;
-}
+
 .price1 {
-  /*border: 1px solid grey;*/
   height:20px;
   width:100px;
   float:right;
@@ -103,13 +94,11 @@ body{
   font-family: helvetica times serif;
 }
 .totalBox {
-  border:2px solid red;
   height:60px;
-  width:800px;
+  width:820px;
   margin:0 auto;
 }
 .total1 {
-  border:1px solid grey;
   height:60px;
   width: 670px;
   font-size:1.3em;
@@ -118,42 +107,26 @@ body{
   font-family: helvetica times serif;
 }
 .totalOut {
-  border: 1px solid grey;
   height:60px;
   width:100px;
   text-align:center;
   float:right;
 }
-.discBox {
-  height:90px;
-  width:780px;
-}
-.checkout{
-  width:100px;
-  height: 60px;
-  float:right;
-  margin: 0 auto;
-}
-.disc1{
-  width:400px;
-  height:60px;
-  text-align: center;
-}
 
-.mainContainer {
-  border:2px solid teal;
+
+ .mainContainer {
   margin: 0 auto;
-  width:800px;
-  height:550px;
+  width: 800px;
+  height: 550px;
 }
-.dsiplayContainer {
-  border:2px solid blue;
+.displayContainer {
   margin: 0 auto;
-  width:900px;
-  height:950px;
+  width:1400px;
+  height:1400px;
 }
-nav {
-  margin:20px;
+input {
+  width:150px;
+  height:25px;
 }
 button {
   font-size:16px;
